@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: carlosandresh925 / cs333-final
+          tags: carlosandresh925/cs333-final:latest
