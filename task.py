@@ -23,7 +23,7 @@ class Task:
     def printTask(self):
         print(f"Date: {self.date}")
         print(f"Description: {self.desc}")
-        if(self.complete == False):
+        if(not self.complete):
             print("Complete: No")
         else:
             print("Complete: Yes")
