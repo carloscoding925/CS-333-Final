@@ -10,6 +10,7 @@ def main():
     userChoice = "1"
 
     while(userChoice != "0"):
+        print("")
         print("Welcome! ")
         print("Select an option:")
         print("1. Add Tasks")
